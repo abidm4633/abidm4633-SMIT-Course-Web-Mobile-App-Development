@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 45px;
+    background-color: rgba(21, 20, 20, 0.968);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.8em;
+    padding-top: 8px;
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+    color: rgba(241, 238, 238, 0.701);
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 35px;
+    color: white;
+    align-items: center;
+}
+.logo{
+    font-size: large;
+}
+div.iphone15{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-color: black;
+}
+h1{
+    font-size: 50px;
+}
+div.iphone15 img{
+    width: 1000px;
+    position: absolute;
+    top: 40px;
+    left: 20%;
+}
+div.pro{
+    color: white;
+    z-index: 1px;
+    text-align: center;
+    background-color:black;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+div .pro a{
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+div .pro a:hover{
+    text-decoration: underline;
+}
+div.vision{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+div.vision img{
+    justify-content: center;
+}
+div.vision-pro {
+    position: absolute;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 350px;
+}
+div .vision-pro h1 , h2{
+    font-weight:bold ;
+}
+div .vision-pro a{
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+div .vision-pro a:hover{
+    text-decoration: underline;
+}
+div.valentine{
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+div.valentine img{
+    justify-content: center;
+}
+div.valentine-pro {
+    position: absolute;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 330px;
+}
+div .valentine-pro h1 , h2{
+    font-weight:bold ;
+}
+div .valentine-pro a{
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+div .valentine-pro a:hover{
+    text-decoration: underline;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+
+}
+.div1 img{
+    width: 40%;
+    position: relative;
+    height: 450px;
+}
+.div1 .camera{
+    position: absolute;
+    width: auto;
+    text-align: center;
+    left: 10%;
+}
+.div1 .camera h1{
+    font-size: 1.2em;
+}
+.div1 .camera h2{
+    font-size: 1.2em;
+}
+.div1 .camera a{
+    padding: 10px;
+    text-decoration: none;
+}
+.div1 .camera a:hover{
+    text-decoration: underline;
+}
+.div1 #watch{
+    color: white;
+}
+.div1 .watch{
+    position: absolute;
+    width: auto;
+    text-align: center;
+    right: 14%;
+   
+}
+.div1 .watch h1{
+    font-size: 1.2em;
+}
+.div1 .watch h2{
+    font-size: 1.2em;
+}
+.div1 .watch a{
+    padding: 10px;
+    text-decoration: none;
+}
+.div1 .watch a:hover{
+    text-decoration: underline;
+} 
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) and (max-width:1440px) {
+    .list{
+        display: none;
+    }
+}
